@@ -7,7 +7,7 @@ import Clock from "./Components/Clock";
 
 const App = () => {
   const pageSize = 6;
-  const apiKey = "01b288720aff43fda87f3b48978fd260";
+  const apiKey = "REACT_APP_API_KEY";
 
   const [progress, setProgress] = useState(0);
 
